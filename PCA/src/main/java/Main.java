@@ -1,6 +1,8 @@
+import Jama.Matrix;
 import domain.ImageBuider;
 import javafx.application.Application;
 import javafx.stage.Stage;
+import pca.Pca;
 import util.Util;
 
 /**
@@ -28,11 +30,16 @@ public class Main extends Application {
 
         System.out.println(result.getV());*/
 
-        ImageBuider imageBuider = new ImageBuider("file:" + Util.resource.concat("data/ABHAY PAKHARE/ABHAY_L_1.jpg"))
-                .scale(32,32)
+        /*Matrix matrix = new ImageBuider("file:" + Util.resource.concat("data/ABHAY PAKHARE/ABHAY_L_1.jpg"))
+                .scale(32,64)
                 .toGray()
-                .writeImage(Util.resource.concat("/test.png"));
+                .writeImage(Util.resource.concat("/testOrig.png"))
+                .toMatrixByRed();
 
-        imageBuider.getImage();
+        new ImageBuider(matrix)
+                .writeImage(Util.resource.concat("/test.png"));*/
+
+        Pca pca = new Pca(Util.resource.concat("data")).train(5,5);
+
     }
 }

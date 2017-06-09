@@ -19,13 +19,17 @@ import java.io.IOException;
  */
 public class ImageBuider {
     private Image image;
+    private String url;
+    private String imageName;
 
     public ImageBuider(String url) {
-        this.image = new Image(url);
+        this(url, new Image(url));
     }
 
-    public ImageBuider(Image image) {
+    private ImageBuider(String url, Image image) {
         this.image = image;
+        this.url = url;
+        this.imageName = this.processName();
     }
 
     public ImageBuider(Matrix matrix) {
@@ -37,7 +41,7 @@ public class ImageBuider {
 
         for (int h = 0; h < height; h++) {
             for (int w = 0; w < width; w++) {
-                writableImage.getPixelWriter().setColor(w, h, new Color(data[w][h], data[w][h], data[w][h], 0));
+                writableImage.getPixelWriter().setColor(w, h, new Color(data[h][w], data[h][w], data[h][w], 1));
             }
         }
 
@@ -50,7 +54,7 @@ public class ImageBuider {
         imageView.setFitWidth(width);
         Image image = imageView.snapshot(null, null);
 
-        return new ImageBuider(image);
+        return new ImageBuider(this.url, image);
     }
 
     public ImageBuider toGray() {
@@ -63,7 +67,7 @@ public class ImageBuider {
 
         Image image = imageView.snapshot(null, null);
 
-        return new ImageBuider(image);
+        return new ImageBuider(this.url, image);
     }
 
     public Matrix toMatrixByRed(){
@@ -92,7 +96,15 @@ public class ImageBuider {
         return this;
     }
 
+    public String getName() {
+        return this.imageName;
+    }
+
     public Image getImage() {
         return image;
+    }
+
+    private String processName() {
+        return this.url.substring(this.url.lastIndexOf('/') + 1, this.url.length());
     }
 }
