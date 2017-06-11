@@ -107,4 +107,5 @@ public class ImageBuider {
     private String processName() {
         return this.url.substring(this.url.lastIndexOf('/') + 1, this.url.length());
     }
+
 }

@@ -15,7 +15,7 @@ public class MainDama {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        for(int i = 0;i < 20; i++){
+        for(int i = 0;i < 100; i++){
             IndividualManager.addIndividual(new Dama(i));
         }
 

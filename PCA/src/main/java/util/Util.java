@@ -5,7 +5,7 @@ package util;
  */
 public class Util {
 
-    public static final String resource = "PCA/src/main/resources/";
+    public static final String resource = "src/main/resources/";
     public static final int widthScale = 32;
     public static final int heigtScale = 32;
 }

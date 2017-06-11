@@ -5,6 +5,9 @@ import javafx.stage.Stage;
 import pca.Pca;
 import util.Util;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 /**
  * Created by dragos on 6/5/17.
  */
@@ -40,6 +43,10 @@ public class Main extends Application {
                 .writeImage(Util.resource.concat("/test.png"));*/
 
         Pca pca = new Pca(Util.resource.concat("data")).train(5,5);
+
+        Pca.walk(Paths.get(Util.resource.concat("data"))).limit(5)
+                .flatMap(path -> Pca.walk(path).limit(5).map(img -> new ImageBuider("file:" + img.toFile().getAbsolutePath())))
+                .forEach(imageBuider -> System.out.println(pca.classify(imageBuider)));
 
     }
 }
