@@ -4,6 +4,10 @@ import com.github.wihoho.jama.Matrix;
 import com.github.wihoho.training.CosineDissimilarity;
 import com.github.wihoho.training.FileManager;
 import domain.ImageBuider;
+import javafx.application.Application;
+import javafx.application.Platform;
+import javafx.embed.swing.JFXPanel;
+import javafx.stage.Stage;
 import org.junit.Test;
 import pca.Pca;
 import util.Util;
@@ -19,10 +23,16 @@ import static junit.framework.TestCase.assertEquals;
 /**
  * Created by dragos on 11.06.2017.
  */
-public class PP {
+public class PP extends Application{
 
-    @Test
-    public void testTraining() throws Exception {
+    public static void main(String[] args){
+        PP.launch(args);
+    }
+
+
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
         // Build a trainer
         Trainer trainer = Trainer.builder()
                 .metric(new CosineDissimilarity())
@@ -54,18 +64,20 @@ public class PP {
         trainer.train();
 
         // recognize
-        assertEquals("john", trainer.recognize(convertToMatrix(john4)));
-        assertEquals("smith", trainer.recognize(convertToMatrix(smith4)));
+        System.out.println(trainer.recognize(convertToMatrix(john4)));
+        System.out.println(trainer.recognize(convertToMatrix(smith4)));
     }
 
     private Matrix convertToMatrix(String fileAddress) throws IOException {
         File file = new File(fileAddress);
 
-        BufferedImage bufferedImage = ImageIO.read(file);
+        final Matrix[] matrix = {null};
 
-        bufferedImage.
 
-        return vectorize(FileManager.convertPGMtoMatrix(file.getAbsolutePath()));
+        matrix[0] = new Matrix(new ImageBuider("file:" + fileAddress).toGray().toMatrixByRed().getArray());
+
+
+        return vectorize(matrix[0]);
     }
 
     //Convert a m by n matrix into a m*n by 1 matrix
@@ -81,4 +93,5 @@ public class PP {
         }
         return result;
     }
+
 }
