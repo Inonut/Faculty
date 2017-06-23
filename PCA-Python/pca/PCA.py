@@ -1,14 +1,10 @@
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-from PIL import Image
-import glob
 import os
+from functools import reduce
+
+import numpy as np
+from PIL import Image
 from numpy import linalg as LA
 
-from os.path import isfile, join
-from scipy import ndimage, misc
-from functools import reduce
 
 # mpimg.imread('../resources/data/ASHIA AUNDHEKAR/ASHISH_L_4.jpg')
 
@@ -31,7 +27,7 @@ def loadData(path, nb_classes, nb_models, offset):
 
 
 nb_classes = 5
-nb_models = 15
+nb_models = 3
 nb_test = 5
 path = "../resources/data"
 
@@ -61,7 +57,7 @@ S = np.dot(A.T, A) * 1/len(images)
 
 
 #eig
-eig_val_sc, eig_vec_sc = np.linalg.eigh(S)
+eig_val_sc, eig_vec_sc = np.linalg.eig(S)
 
 
 # sort desc
