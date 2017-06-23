@@ -1,7 +1,7 @@
 package tema1;
 
-import util.FunctionCoef;
-import util.Point;
+import old.util.FunctionCoef;
+import old.util.Point;
 
 import javax.script.ScriptException;
 import java.util.Arrays;

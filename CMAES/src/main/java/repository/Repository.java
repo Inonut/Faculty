@@ -1,8 +1,7 @@
 package repository;
 
-import domain.Female;
-import domain.Male;
-import domain.Person;
+import old.domain.Female;
+import old.domain.Male;
 
 /**
  * Created by dragos on 6/4/17.

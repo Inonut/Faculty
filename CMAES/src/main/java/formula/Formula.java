@@ -1,7 +1,7 @@
 package formula;
 
-import domain.Person;
-import util.Permutare;
+import old.domain.Person;
+import old.util.Permutare;
 
 import java.util.Comparator;
 import java.util.stream.Stream;

@@ -1,11 +1,9 @@
 package repository.impl;
 
-import com.sun.prism.impl.BaseMesh;
-import domain.Female;
-import domain.Male;
-import domain.Person;
+import old.domain.Female;
+import old.domain.Male;
 import repository.Repository;
-import util.Util;
+import old.util.Util;
 
 import java.util.Collections;
 import java.util.List;

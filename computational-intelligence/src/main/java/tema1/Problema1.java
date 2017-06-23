@@ -1,6 +1,6 @@
 package tema1;
 
-import util.Point;
+import old.util.Point;
 
 import java.util.Arrays;
 import java.util.List;

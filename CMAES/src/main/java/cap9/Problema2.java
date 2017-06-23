@@ -1,7 +1,6 @@
 package cap9;
 
-import domain.Female;
-import domain.Male;
+import old.domain.Male;
 import formula.Formula;
 
 import java.io.IOException;
