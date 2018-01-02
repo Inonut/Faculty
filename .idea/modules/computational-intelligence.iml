@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="computational-intelligence" external.linked.project.path="$MODULE_DIR$/../../computational-intelligence" external.root.project.path="$MODULE_DIR$/../../computational-intelligence" external.system.id="GRADLE" external.system.module.group="faculty.homework.dopopan" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../computational-intelligence/build/classes/main" />
-    <output-test url="file://$MODULE_DIR$/../../computational-intelligence/build/classes/test" />
+    <output url="file://$MODULE_DIR$/../../computational-intelligence/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../computational-intelligence/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../computational-intelligence">
       <sourceFolder url="file://$MODULE_DIR$/../../computational-intelligence/src/main/java" isTestSource="false" />
@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../computational-intelligence/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../computational-intelligence/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../computational-intelligence/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../computational-intelligence/out" />
       <excludeFolder url="file://$MODULE_DIR$/../../computational-intelligence/src/main/java/tema9" />
       <excludeFolder url="file://$MODULE_DIR$/../../computational-intelligence/src/main/java/tema9/old" />
       <excludeFolder url="file://$MODULE_DIR$/../../computational-intelligence/src/main/java/tema9/problema3" />

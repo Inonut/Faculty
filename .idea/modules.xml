@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CMAES.iml" filepath="$PROJECT_DIR$/.idea/modules/CMAES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EMP/EMP.iml" filepath="$PROJECT_DIR$/EMP/EMP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PCA.iml" filepath="$PROJECT_DIR$/.idea/modules/PCA.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/computational-intelligence.iml" filepath="$PROJECT_DIR$/.idea/modules/computational-intelligence.iml" />
     </modules>

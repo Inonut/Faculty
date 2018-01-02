@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="CMAES" external.linked.project.path="$MODULE_DIR$/../../CMAES" external.root.project.path="$MODULE_DIR$/../../CMAES" external.system.id="GRADLE" external.system.module.group="faculty.homework.balcau" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../CMAES/build/classes/main" />
-    <output-test url="file://$MODULE_DIR$/../../CMAES/build/classes/test" />
+    <output url="file://$MODULE_DIR$/../../CMAES/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../CMAES/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../CMAES">
       <sourceFolder url="file://$MODULE_DIR$/../../CMAES/src/main/java" isTestSource="false" />
@@ -11,33 +11,34 @@
       <sourceFolder url="file://$MODULE_DIR$/../../CMAES/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../CMAES/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../CMAES/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../CMAES/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.poi:poi-ooxml:3.15" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.poi:poi:3.16" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-collections4:4.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.poi:poi:3.16" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.commons:commons-collections4:4.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.poi:poi:3.16" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.commons:commons-collections4:4.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.poi:poi-ooxml:3.15" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.poi:poi-ooxml-schemas:3.15" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.github.virtuald:curvesapi:1.04" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: stax:stax-api:1.0.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.poi:poi-ooxml:3.15" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.poi:poi:3.16" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.commons:commons-collections4:4.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.poi:poi-ooxml-schemas:3.15" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.virtuald:curvesapi:1.04" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: stax:stax-api:1.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.poi:poi-ooxml:3.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.poi:poi:3.16" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.commons:commons-collections4:4.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.poi:poi-ooxml-schemas:3.15" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.virtuald:curvesapi:1.04" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: stax:stax-api:1.0.1" level="project" />
   </component>
