@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CMAES.iml" filepath="$PROJECT_DIR$/.idea/modules/CMAES.iml" />
       <module fileurl="file://$PROJECT_DIR$/EMP/EMP.iml" filepath="$PROJECT_DIR$/EMP/EMP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PCA.iml" filepath="$PROJECT_DIR$/.idea/modules/PCA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/STV.iml" filepath="$PROJECT_DIR$/.idea/modules/STV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/STV_main.iml" filepath="$PROJECT_DIR$/.idea/modules/STV_main.iml" group="STV" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/STV_test.iml" filepath="$PROJECT_DIR$/.idea/modules/STV_test.iml" group="STV" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/computational-intelligence.iml" filepath="$PROJECT_DIR$/.idea/modules/computational-intelligence.iml" />
     </modules>
   </component>

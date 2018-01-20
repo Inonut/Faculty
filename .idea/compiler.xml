@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="EMP_main" target="1.8" />
       <module name="EMP_test" target="1.8" />
+      <module name="STV_main" target="1.8" />
+      <module name="STV_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
