@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../STV">
       <excludeFolder url="file://$MODULE_DIR$/../../STV/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../STV/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../STV/build2" />
       <excludeFolder url="file://$MODULE_DIR$/../../STV/out" />
     </content>
     <orderEntry type="inheritedJdk" />
