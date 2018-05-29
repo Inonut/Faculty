@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/STV_main.iml" filepath="$PROJECT_DIR$/.idea/modules/STV_main.iml" group="STV" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/STV_test.iml" filepath="$PROJECT_DIR$/.idea/modules/STV_test.iml" group="STV" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/computational-intelligence.iml" filepath="$PROJECT_DIR$/.idea/modules/computational-intelligence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/corba-chat-java-master/corba-chat-java-master.iml" filepath="$PROJECT_DIR$/corba-chat-java-master/corba-chat-java-master.iml" />
     </modules>
   </component>
 </project>
