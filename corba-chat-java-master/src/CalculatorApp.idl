@@ -1,0 +1,15 @@
+module CalculatorApp {
+
+	interface Calculator {
+	    exception ScriptException {
+            string reason;
+        };
+
+		long sum(in long n1,in long n2);
+		long sub(in long n1,in long n2);
+		long mul(in long n1,in long n2);
+		double div(in long n1,in long n2);
+		double eval(in string expr) raises(ScriptException);
+	};
+
+};
