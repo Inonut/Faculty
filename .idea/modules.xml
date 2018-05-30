@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CEM/CEM.iml" filepath="$PROJECT_DIR$/CEM/CEM.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CMAES.iml" filepath="$PROJECT_DIR$/.idea/modules/CMAES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EL/EL.iml" filepath="$PROJECT_DIR$/EL/EL.iml" />
       <module fileurl="file://$PROJECT_DIR$/EMP/EMP.iml" filepath="$PROJECT_DIR$/EMP/EMP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PCA.iml" filepath="$PROJECT_DIR$/.idea/modules/PCA.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/STV.iml" filepath="$PROJECT_DIR$/.idea/modules/STV.iml" />
